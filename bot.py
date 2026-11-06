@@ -13,9 +13,9 @@ from telegram.ext import (
 )
 
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8535271767:AAGASCq-ncUEGY5IYnszNs_WOGQ8xlewOoY").strip()
-ADMIN_ID = int(os.getenv("ADMIN_ID", "1686274364"))
-CHANNEL_USERNAME = os.getenv("FORCE_JOIN_CHANNEL", "-1004427032466").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8805988021:AAHYNGhG66tnrnZy0KEEuklfbxY1puomfYA").strip()
+ADMIN_ID = int(os.getenv("ADMIN_ID", "1727225499"))
+CHANNEL_USERNAME = os.getenv("FORCE_JOIN_CHANNEL", "-1002110922261").strip()
 DB_PATH = os.getenv("DB_PATH", "episodes.db")
 TZ = ZoneInfo(os.getenv("TIMEZONE", "Asia/Dhaka"))
 POLL_MINUTES = max(30, int(os.getenv("POLL_MINUTES", "180")))
